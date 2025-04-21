@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Test Web">
+    <parameter name="username" value="standard_user"/>
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="firstName" value="Dicky"/>
+    <parameter name="lastName" value ="Wahyudi"/>
+    <parameter name="zip" value="111"/>
+    <parameter name="browser" value="CHROME" />
+    <test name="First My Test">
+        <classes>
+            <class name="com.juaracoding.page.LoginPageTest" />
+            <class name="com.juaracoding.page.InventoryPageTest" />
+            <class name="com.juaracoding.page.CheckoutTest" />
+            <class name="com.juaracoding.Hook" />
+        </classes>
+    </test>
+</suite>
