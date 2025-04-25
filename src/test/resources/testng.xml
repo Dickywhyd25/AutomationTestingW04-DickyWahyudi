@@ -9,10 +9,7 @@
     <parameter name="browser" value="CHROME" />
     <test name="First My Test">
         <classes>
-            <class name="com.juaracoding.page.LoginPageTest" />
-            <class name="com.juaracoding.page.InventoryPageTest" />
-            <class name="com.juaracoding.page.CheckoutTest" />
-            <class name="com.juaracoding.Hook" />
+            <class name="com.juaracoding.runners.TestRunner" />
         </classes>
     </test>
 </suite>
